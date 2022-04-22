@@ -23,6 +23,10 @@ import Box from "./assets/img/box.png";
 import Key from "./assets/img/key.png";
 import Gate from "./assets/img/gate.png";
 import Boxes2Gray from "./assets/img/2-boxes-gray.png";
+import CardC1 from "./assets/img/card-c-1.png";
+import CardC2 from "./assets/img/card-c-2.png";
+import CardC3 from "./assets/img/card-c-3.png";
+import CardC4 from "./assets/img/card-c-4.png";
 
 function App() {
   return (
@@ -46,13 +50,13 @@ function App() {
             </div>
             <div className="header-right">
               <a href="#">
-                <Opensea color="#fff" />
+                <Opensea color="#1b1e22" />
               </a>
               <a href="#">
-                <Twitter color="#fff" />
+                <Discord color="#1b1e22" />
               </a>
               <a href="#">
-                <Discord color="#fff" />
+                <Twitter color="#1b1e22" />
               </a>
             </div>
           </div>
@@ -71,6 +75,18 @@ function App() {
 
       {/* Beyond Section */}
       <section className="beyond">
+        <img
+          loading="lazy"
+          className="bull-left"
+          src={BullLeft}
+          alt="BullLeft"
+        />
+        <img
+          loading="lazy"
+          className="bear-right"
+          src={BearRight}
+          alt="BearRight"
+        />
         <div className="box-sm">
           <div className="section-heading-box">
             <h2>BEYOND</h2>
@@ -83,18 +99,7 @@ function App() {
               src={Diamond}
               alt="Diamond"
             />
-            <img
-              loading="lazy"
-              className="bull-left"
-              src={BullLeft}
-              alt="BullLeft"
-            />
-            <img
-              loading="lazy"
-              className="bear-right"
-              src={BearRight}
-              alt="BearRight"
-            />
+            <img loading="lazy" className="cup" src={Cup} alt="Cup" />
             <p>
               A metaverse brand made up of people from various specializations
               including blockchain and crypto experts, traders. devs . graphic
@@ -137,26 +142,30 @@ function App() {
         <div className="box-sm">
           <div className="mindmap-content">
             <div className="mindmap-grid">
-              <div className="mindmap-grid-card">
-                <h3>VISION</h3>
-                <img loading="lazy" src={Vision} alt="Vision" />
-              </div>
-              <div className="mindmap-grid-card">
-                <h3>COMMUNITY & TEAMING</h3>
-                <img loading="lazy" src={Boxes2Gray} alt="Boxes2Gray" />
-              </div>
-              <div className="mindmap-grid-card">
-                <h3>AIRDROPS & MERCH</h3>
-                <img loading="lazy" src={Box} alt="Box" />
-              </div>
-              <div className="mindmap-grid-card">
-                <h3>METAVERSE</h3>
-                <img loading="lazy" src={Gate} alt="Gate" />
-              </div>
-              <div className="mindmap-grid-card">
-                <h3>YOUR INVESTMENT KEY</h3>
-                <img loading="lazy" src={Key} alt="Key" />
-              </div>
+              <main>
+                <div className="mindmap-grid-card">
+                  <h3>VISION</h3>
+                  <img loading="lazy" src={Vision} alt="Vision" />
+                </div>
+                <div className="mindmap-grid-card">
+                  <h3>AIRDROPS & MERCH</h3>
+                  <img loading="lazy" src={Box} alt="Box" />
+                </div>
+                <div className="mindmap-grid-card">
+                  <h3>METAVERSE</h3>
+                  <img loading="lazy" src={Gate} alt="Gate" />
+                </div>
+              </main>
+              <main>
+                <div className="mindmap-grid-card">
+                  <h3>COMMUNITY & TEAMING</h3>
+                  <img loading="lazy" src={Boxes2Gray} alt="Boxes2Gray" />
+                </div>
+                <div className="mindmap-grid-card">
+                  <h3>YOUR INVESTMENT KEY</h3>
+                  <img loading="lazy" src={Key} alt="Key" />
+                </div>
+              </main>
             </div>
             <div className="mindmap-details-box vision-details-box">
               <h3>VISON</h3>
@@ -276,7 +285,29 @@ function App() {
           </div>
         </div>
       </div>
-
+      <section className="bags-collection">
+        <div className="section-heading-box">
+          <h2>BAGS</h2>
+          <p>
+            The items in the collection are carefully hand drawn and generated
+            randomly. Each one has its own rarity and uniqueness,
+          </p>
+        </div>
+        <div className="box-sm">
+          <div className="bags-c-content">
+            <div className="box-c-grid">
+              <img src={CardC1} alt="CardC1" />
+              <img src={CardC2} alt="CardC2" />
+              <img src={CardC3} alt="CardC3" />
+              <img src={CardC4} alt="CardC4" />
+            </div>
+            <p>
+              the collection also includes 4 one-of-a-kinds, which are the most
+              rare items
+            </p>
+          </div>
+        </div>
+      </section>
       {/* Team Section */}
       <div className="team">
         <div className="section-heading-box">
@@ -289,7 +320,7 @@ function App() {
         <div className="box-sm">
           <div className="team-content">
             <img loading="lazy" className="bags-2" src={Bags2} alt="Bags2" />
-            <img loading="lazy" className="cup" src={Cup} alt="Cup" />
+            <img loading="lazy" className="cup" src={Bags2} alt="Bags2" />
             <img
               loading="lazy"
               className="diamond"
@@ -373,14 +404,14 @@ function App() {
       <section className="faq">
         <div className="section-heading-box">
           <h2>FAQ</h2>
-          <p>
+          {/* <p>
             Some text can also go thee just for the sake of design harmony. Some
             text can also go thee just for the sake of design harmony.
-          </p>
+          </p> */}
         </div>
         <div className="box-sm">
           <div className="faq-content">
-            <img loading="lazy" className="bags-2" src={Bags2} alt="Bags2" />
+            {/* <img loading="lazy" className="bags-2" src={Bags2} alt="Bags2" /> */}
             <div className="faq-box">
               <h4>What is Bagup gang ?</h4>
               <p>
@@ -409,9 +440,7 @@ function App() {
             </div>
             <div className="faq-box">
               <h4>What is the realise date and mint price ?</h4>
-              <p>
-                April 25, 2022 <br /> $2M/mint
-              </p>
+              <p>X</p>
             </div>
             <div className="faq-box">
               <h4></h4>
@@ -426,11 +455,11 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer>
+      {/* <footer>
         <div className="box-sm">
           <p>Copyright © 2021 BagUp. All Rights Reserved.</p>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
