@@ -285,6 +285,7 @@ function App() {
           </div>
         </div>
       </div>
+
       <section className="bags-collection">
         <div className="section-heading-box">
           <h2>BAGS</h2>
