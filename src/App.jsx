@@ -65,12 +65,12 @@ function App() {
 
       {/* Hero Section */}
       <section className="hero">
-        <div className="box-lg">
-          <div className="hero-content">
-            <img className="hero-img" src={Hero} alt="Hero" />
-            <img className="hero-bg" src={HeroBg} alt="HeroBg" />
-          </div>
+        {/* <div className="box-lg"> */}
+        <div className="hero-content">
+          <img className="hero-img" src={Hero} alt="Hero" />
+          <img className="hero-bg" src={HeroBg} alt="HeroBg" />
         </div>
+        {/* </div> */}
       </section>
 
       {/* Beyond Section */}
@@ -117,29 +117,25 @@ function App() {
 
       {/* Bag Section */}
       <div className="bag">
-        <div className="box-lg">
-          <div className="bag-content">
-            <img className="bag-section-logo" src={BagText} alt="BagText" />
-            <div className="bag-figures-box">
-              <img loading="lazy" src={BagFigure1} alt="BagFigure1" />
-              <img loading="lazy" src={BagFigure3} alt="BagFigure3" />
-              <img loading="lazy" src={BagFigure2} alt="BagFigure2" />
-              <img loading="lazy" src={BagFigure4} alt="BagFigure4" />
-            </div>
+        {/* <div className="box-lg"> */}
+        <div className="bag-content">
+          <img className="bag-section-logo" src={BagText} alt="BagText" />
+          <div className="bag-figures-box">
+            <img loading="lazy" src={BagFigure1} alt="BagFigure1" />
+            <img loading="lazy" src={BagFigure3} alt="BagFigure3" />
+            <img loading="lazy" src={BagFigure2} alt="BagFigure2" />
+            <img loading="lazy" src={BagFigure4} alt="BagFigure4" />
           </div>
         </div>
+        {/* </div> */}
       </div>
 
       {/* Mindmap Section */}
       <div className="mindmap">
-        <div className="section-heading-box">
-          <h2>MINDMAP</h2>
-          <p>
-            Some text can also go thee just for the sake of design harmony. Some
-            text can also go thee just for the sake of design harmony.
-          </p>
-        </div>
         <div className="box-sm">
+          <div className="mindmap-head">
+            <h2>MINDMAP</h2>
+          </div>
           <div className="mindmap-content">
             <div className="mindmap-grid">
               <main>

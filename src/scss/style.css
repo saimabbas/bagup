@@ -22,12 +22,12 @@ body {
   width: 100%;
   background-color: #1b1e22;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .box-sm {
   width: 100%;
   height: 100%;
-  max-width: 1250px;
   margin: 0 auto;
   padding: 0 3.5rem;
 }
@@ -35,7 +35,6 @@ body {
 .box-lg {
   width: 100%;
   height: 100%;
-  max-width: 1500px;
   margin: 0 auto;
   padding: 0 3.5rem;
 }
@@ -67,9 +66,9 @@ a {
 }
 
 .section-heading-box p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 400;
-  max-width: 85rem;
+  max-width: 100rem;
   text-align: center;
 }
 
@@ -124,9 +123,10 @@ header .header-content .header-center {
 }
 
 header .header-content .header-center a {
-  margin: 0 2.5rem;
-  font-size: 1.75rem;
-  color: #fff;
+  margin: 0 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 header .header-content .header-center a:hover {
@@ -140,7 +140,7 @@ header .header-content .header-right {
       grid-template-columns: 3.5rem 3.5rem 3.5rem;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  grid-gap: 2.5rem;
+  grid-gap: 1.5rem;
 }
 
 header .header-content .header-right a {
@@ -224,7 +224,7 @@ header .header-content .header-right a svg {
 }
 
 .beyond .bull-left {
-  width: 25rem;
+  width: 22.5rem;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -264,20 +264,20 @@ header .header-content .header-right a svg {
 }
 
 .beyond .beyond-content .diamond {
-  width: 25rem;
+  width: 30rem;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transform: translate(8.5rem, -30rem);
-          transform: translate(8.5rem, -30rem);
+  -webkit-transform: translate(15rem, -30rem);
+          transform: translate(15rem, -30rem);
   z-index: 2;
 }
 
 .beyond .beyond-content .cup {
-  width: 20rem;
+  width: 25rem;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -293,7 +293,7 @@ header .header-content .header-right a svg {
   font-size: 2rem;
   color: #fff;
   font-weight: 300;
-  width: 65%;
+  width: 50%;
   text-align: center;
   position: relative;
   z-index: 5;
@@ -388,8 +388,30 @@ header .header-content .header-right a svg {
 
 .mindmap {
   width: 100%;
-  padding: 10rem 0 0 0;
   position: relative;
+}
+
+.mindmap .mindmap-head {
+  width: 100%;
+  background-color: #343a40;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3.5rem 0;
+  margin: 1.5rem 0;
+}
+
+.mindmap .mindmap-head h2 {
+  font-size: 7.5rem;
+  line-height: 7.5rem;
+  color: #fff;
+  font-family: NetworkFreeVersion, "Poppins", sans-serif;
 }
 
 .mindmap .mindmap-grid {
@@ -401,7 +423,6 @@ header .header-content .header-right a svg {
   -ms-grid-rows: auto;
       grid-template-rows: auto;
   grid-gap: 1.5rem;
-  margin: 7.5rem 0 0 0;
   position: relative;
   z-index: 5;
 }
@@ -510,13 +531,24 @@ header .header-content .header-right a svg {
   right: -5rem;
 }
 
+.mindmap .mindmap-grid .mindmap-grid-card:nth-child(3) > img {
+  width: 20rem;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  bottom: -5rem;
+  right: 0rem;
+  top: unset;
+}
+
 .mindmap .mindmap-grid .mindmap-grid-card h3 {
-  font-size: 3.25rem;
-  font-weight: 600;
+  font-size: 5rem;
+  font-weight: 500;
   color: #fff;
   position: relative;
   z-index: 22;
-  max-width: 50%;
+  max-width: 65%;
 }
 
 .mindmap .mindmap-details-box {
@@ -528,7 +560,7 @@ header .header-content .header-right a svg {
   /* position: absolute;
     top: 0;
     left: 0; */
-  margin: 5rem 0 0 0;
+  margin: 1.5rem 0 0 0;
   z-index: 10;
   padding: 5rem;
   overflow: hidden;
@@ -536,9 +568,9 @@ header .header-content .header-right a svg {
 }
 
 .mindmap .mindmap-details-box h3 {
-  font-size: 6.5rem;
+  font-size: 8.5rem;
   color: #1b1e22;
-  margin: 0 0 5rem 0;
+  margin: 0 0 2.5rem 0;
   font-weight: 700;
   position: relative;
   z-index: 20;
@@ -546,9 +578,9 @@ header .header-content .header-right a svg {
 }
 
 .mindmap .mindmap-details-box p {
-  font-size: 1.85rem;
+  font-size: 2.25rem;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.85);
   position: relative;
   z-index: 20;
   max-width: 60%;
@@ -560,12 +592,11 @@ header .header-content .header-right a svg {
 }
 
 .mindmap .mindmap-details-box > img {
-  width: 60rem;
+  width: 65rem;
   position: absolute;
   bottom: -7.5rem;
   right: -7.5rem;
   z-index: 15;
-  opacity: 0.75;
 }
 
 .mindmap .mindmap-details-box main {
@@ -573,7 +604,7 @@ header .header-content .header-right a svg {
 }
 
 .mindmap .mindmap-details-box main h4 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #1b1e22;
   font-weight: 700;
   margin: 0 0 1.5rem 0;
@@ -582,15 +613,15 @@ header .header-content .header-right a svg {
 .mindmap .mindmap-details-box main h4 span {
   background-color: #eb335e;
   color: #fff;
-  font-size: 1.35rem;
+  font-size: 1.75rem;
   border-radius: 0.25rem;
   font-weight: 400;
   padding: 0.25rem 1rem;
 }
 
 .mindmap-details-box .team-overview-grid img {
-  width: 10rem;
-  height: 10rem;
+  width: 12.5rem;
+  height: 12.5rem;
   margin: 2.5rem 0 0 0;
 }
 
@@ -614,9 +645,8 @@ header .header-content .header-right a svg {
 }
 
 .bags-collection .bags-c-content p {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 400;
-  max-width: 85rem;
   text-align: center;
 }
 
@@ -631,11 +661,11 @@ header .header-content .header-right a svg {
       grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  grid-gap: 2.5rem;
+  grid-gap: 3.5rem;
 }
 
 .bags-collection .box-c-grid img {
-  width: 22.5rem;
+  width: 25rem;
 }
 
 .team {
@@ -666,8 +696,8 @@ header .header-content .header-right a svg {
   height: -moz-max-content;
   height: max-content;
   position: absolute;
-  top: -25rem;
-  left: 5rem;
+  top: -27.5rem;
+  left: 15rem;
   z-index: 2;
 }
 
@@ -720,9 +750,9 @@ header .header-content .header-right a svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -730,6 +760,7 @@ header .header-content .header-right a svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  min-height: 90vh;
 }
 
 .team .team-card-grid .team-card .team-card-content {
@@ -750,8 +781,8 @@ header .header-content .header-right a svg {
 }
 
 .team .team-card-grid .team-card .team-card-content img {
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -803,7 +834,7 @@ header .header-content .header-right a svg {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
       grid-template-rows: auto;
-  grid-gap: 2.5rem;
+  grid-gap: 5rem;
   margin: 2.5rem 0 10rem 0;
 }
 
