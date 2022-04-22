@@ -77,9 +77,24 @@ function App() {
             <h6>FOR THE COMMUNITY, BY THE COMMUNITY</h6>
           </div>
           <div className="beyond-content">
-            <img className="diamond" src={Diamond} alt="Diamond" />
-            <img className="bull-left" src={BullLeft} alt="BullLeft" />
-            <img className="bear-right" src={BearRight} alt="BearRight" />
+            <img
+              loading="lazy"
+              className="diamond"
+              src={Diamond}
+              alt="Diamond"
+            />
+            <img
+              loading="lazy"
+              className="bull-left"
+              src={BullLeft}
+              alt="BullLeft"
+            />
+            <img
+              loading="lazy"
+              className="bear-right"
+              src={BearRight}
+              alt="BearRight"
+            />
             <p>
               A metaverse brand made up of people from various specializations
               including blockchain and crypto experts, traders. devs . graphic
@@ -101,10 +116,10 @@ function App() {
           <div className="bag-content">
             <img className="bag-section-logo" src={BagText} alt="BagText" />
             <div className="bag-figures-box">
-              <img src={BagFigure1} alt="BagFigure1" />
-              <img src={BagFigure3} alt="BagFigure3" />
-              <img src={BagFigure2} alt="BagFigure2" />
-              <img src={BagFigure4} alt="BagFigure4" />
+              <img loading="lazy" src={BagFigure1} alt="BagFigure1" />
+              <img loading="lazy" src={BagFigure3} alt="BagFigure3" />
+              <img loading="lazy" src={BagFigure2} alt="BagFigure2" />
+              <img loading="lazy" src={BagFigure4} alt="BagFigure4" />
             </div>
           </div>
         </div>
@@ -124,23 +139,23 @@ function App() {
             <div className="mindmap-grid">
               <div className="mindmap-grid-card">
                 <h3>VISION</h3>
-                <img src={Vision} alt="Vision" />
+                <img loading="lazy" src={Vision} alt="Vision" />
               </div>
               <div className="mindmap-grid-card">
                 <h3>COMMUNITY & TEAMING</h3>
-                <img src={Boxes2Gray} alt="Boxes2Gray" />
+                <img loading="lazy" src={Boxes2Gray} alt="Boxes2Gray" />
               </div>
               <div className="mindmap-grid-card">
                 <h3>AIRDROPS & MERCH</h3>
-                <img src={Box} alt="Box" />
+                <img loading="lazy" src={Box} alt="Box" />
               </div>
               <div className="mindmap-grid-card">
                 <h3>METAVERSE</h3>
-                <img src={Gate} alt="Gate" />
+                <img loading="lazy" src={Gate} alt="Gate" />
               </div>
               <div className="mindmap-grid-card">
                 <h3>YOUR INVESTMENT KEY</h3>
-                <img src={Key} alt="Key" />
+                <img loading="lazy" src={Key} alt="Key" />
               </div>
             </div>
             <div className="mindmap-details-box vision-details-box">
@@ -160,7 +175,7 @@ function App() {
                   get your baggie to have a membership acces to the gang
                 </b>
               </p>
-              <img src={Vision} alt="Vision" />
+              <img loading="lazy" src={Vision} alt="Vision" />
             </div>
             <div className="mindmap-details-box community-details-box">
               <h3>Community & teaming </h3>
@@ -179,11 +194,11 @@ function App() {
                 <br />- More about the teams system
               </p>
               <div className="team-overview-grid">
-                <img src={TeamTag1} alt="TeamTag1" />
-                <img src={TeamTag2} alt="TeamTag2" />
-                <img src={TeamTag3} alt="TeamTag3" />
-                <img src={TeamTag4} alt="TeamTag4" />
-                <img src={TeamTag5} alt="TeamTag5" />
+                <img loading="lazy" src={TeamTag1} alt="TeamTag1" />
+                <img loading="lazy" src={TeamTag2} alt="TeamTag2" />
+                <img loading="lazy" src={TeamTag3} alt="TeamTag3" />
+                <img loading="lazy" src={TeamTag4} alt="TeamTag4" />
+                <img loading="lazy" src={TeamTag5} alt="TeamTag5" />
               </div>
               <img src={Boxes2Gray} alt="Boxes2Gray" />
             </div>
@@ -214,7 +229,7 @@ function App() {
                   virtual place in the metaverse.
                 </p>
               </main>
-              <img src={Gate} alt="Gate" />
+              <img loading="lazy" src={Gate} alt="Gate" />
             </div>
             <div className="mindmap-details-box community-details-box">
               <h3>AIRDROPS & MERCH</h3>
@@ -244,7 +259,7 @@ function App() {
                   we will be offering our holders a unique merch store soon
                 </p>
               </main>
-              <img src={Box} alt="Box" />
+              <img loading="lazy" src={Box} alt="Box" />
             </div>
             <div className="mindmap-details-box community-details-box">
               <h3>Your investment key</h3>
@@ -256,7 +271,7 @@ function App() {
                 security, smart contracts, etc.. <br /> Check out our discord
                 for more informations
               </p>
-              <img src={Key} alt="Key" />
+              <img loading="lazy" src={Key} alt="Key" />
             </div>
           </div>
         </div>
@@ -273,20 +288,25 @@ function App() {
         </div>
         <div className="box-sm">
           <div className="team-content">
-            <img className="bags-2" src={Bags2} alt="Bags2" />
-            <img className="cup" src={Cup} alt="Cup" />
-            <img className="diamond" src={Diamond} alt="Diamond" />
+            <img loading="lazy" className="bags-2" src={Bags2} alt="Bags2" />
+            <img loading="lazy" className="cup" src={Cup} alt="Cup" />
+            <img
+              loading="lazy"
+              className="diamond"
+              src={Diamond}
+              alt="Diamond"
+            />
             <div className="team-overview-grid">
-              <img src={TeamTag1} alt="TeamTag1" />
-              <img src={TeamTag2} alt="TeamTag2" />
-              <img src={TeamTag3} alt="TeamTag3" />
-              <img src={TeamTag4} alt="TeamTag4" />
-              <img src={TeamTag5} alt="TeamTag5" />
+              <img loading="lazy" src={TeamTag1} alt="TeamTag1" />
+              <img loading="lazy" src={TeamTag2} alt="TeamTag2" />
+              <img loading="lazy" src={TeamTag3} alt="TeamTag3" />
+              <img loading="lazy" src={TeamTag4} alt="TeamTag4" />
+              <img loading="lazy" src={TeamTag5} alt="TeamTag5" />
             </div>
             <div className="team-card-grid">
               <div className="team-card">
                 <div className="team-card-content">
-                  <img src={TeamTag1} alt="TeamTag1" />
+                  <img loading="lazy" src={TeamTag1} alt="TeamTag1" />
                   <h3>SAGE!</h3>
                   <p>
                     Devs, Discord Masters, Marketers, Web 3 techies and Business
@@ -299,7 +319,7 @@ function App() {
               </div>
               <div className="team-card">
                 <div className="team-card-content">
-                  <img src={TeamTag2} alt="TeamTag1" />
+                  <img loading="lazy" src={TeamTag2} alt="TeamTag1" />
                   <h3>Creative Gang</h3>
                   <p>
                     Artists, graphic designers, music producers, are joining
@@ -311,7 +331,7 @@ function App() {
               </div>
               <div className="team-card">
                 <div className="team-card-content">
-                  <img src={TeamTag3} alt="TeamTag1" />
+                  <img loading="lazy" src={TeamTag3} alt="TeamTag1" />
                   <h3>Pump or dump?</h3>
                   <p>
                     The Whales of the Blockchain are a group of crypto traders,
@@ -323,7 +343,7 @@ function App() {
               </div>
               <div className="team-card">
                 <div className="team-card-content">
-                  <img src={TeamTag4} alt="TeamTag1" />
+                  <img loading="lazy" src={TeamTag4} alt="TeamTag1" />
                   <h3>Risky?</h3>
                   <p>
                     For those who like to risk, especially casino gamblers and
@@ -334,7 +354,7 @@ function App() {
               </div>
               <div className="team-card">
                 <div className="team-card-content">
-                  <img src={TeamTag5} alt="TeamTag1" />
+                  <img loading="lazy" src={TeamTag5} alt="TeamTag1" />
                   <h3>Good vibes only</h3>
                   <p>
                     We cater to rule breakers, gamers, and mob, so whether you
@@ -360,7 +380,7 @@ function App() {
         </div>
         <div className="box-sm">
           <div className="faq-content">
-            <img className="bags-2" src={Bags2} alt="Bags2" />
+            <img loading="lazy" className="bags-2" src={Bags2} alt="Bags2" />
             <div className="faq-box">
               <h4>What is Bagup gang ?</h4>
               <p>
