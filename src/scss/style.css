@@ -129,6 +129,10 @@ header .header-content .header-center a {
   color: #fff;
 }
 
+header .header-content .header-center a:hover {
+  text-decoration: none;
+}
+
 header .header-content .header-right {
   display: -ms-grid;
   display: grid;

@@ -256,7 +256,7 @@ function App() {
                 security, smart contracts, etc.. <br /> Check out our discord
                 for more informations
               </p>
-              <img src={Box} alt="Box" />
+              <img src={Key} alt="Key" />
             </div>
           </div>
         </div>
