@@ -159,7 +159,7 @@ function App() {
               </main>
             </div>
             <div className="mindmap-details-box vision-details-box">
-              <h3>VISON</h3>
+              <h3>VISION</h3>
               <p>
                 Its just you! with a <b>BAG UP</b> <br />
                 BagUP gang members are taggers of the metaverse, they are in an
@@ -179,16 +179,14 @@ function App() {
             </div>
             <div className="mindmap-details-box community-details-box">
               <h3>Community & teaming </h3>
-              <p>
+              <p className="ct-team">
                 - Sometimes your circle decreases in size but increases in
                 value. In order to make it easier for the community to connect
                 and get to know one another, we have chosen to reduce the number
                 of holders, community is always first.
-                <br />
-                <br />
                 - Our first priority is to make you feel comfortable within the
                 community. We created the concept of teams where you can hang
-                out with people who share the same interests and skills as you
+                out with people who share the same interests and skills <br />as you
                 to relax, create, and have fun together.
                 <br />
                 <br />- More about the teams system
@@ -294,13 +292,13 @@ function App() {
               <img src={CardC4} alt="CardC4" />
             </div>
             <p>
-              the collection also includes 4 one-of-a-kinds, which are the most
+              the collection also includes <b>4</b> one-of-a-kinds, which are the most
               rare items
             </p>
           </div>
         </div>
-      </section> */}
-      {/* <div className="team" id="teams">
+      </section>
+      <div className="team" id="teams">
         <div className="section-heading-box">
           <h2>TEAM</h2>
           <p>
@@ -329,7 +327,7 @@ function App() {
               <div className="team-card">
                 <div className="team-card-content">
                   <img loading="lazy" src={TeamTag1} alt="TeamTag1" />
-                  <h3>SAGE!</h3>
+                  <h3>Sage!</h3>
                   <p>
                     Devs, Discord Masters, Marketers, Web 3 techies and Business
                     owners. This will be your fav place in the metaverse, As

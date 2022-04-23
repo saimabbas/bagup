@@ -354,7 +354,7 @@ header .header-content .header-right a:hover {
 .mindmap .mindmap-grid .mindmap-grid-card {
   width: 100%;
   height: 100%;
-  min-height: 15vw;
+  min-height: 13.5vw;
   background-color: #eb335e;
   padding: 1.5vw;
   color: #fff;
@@ -426,7 +426,16 @@ header .header-content .header-right a:hover {
   transition: 0.5s;
 }
 .mindmap .mindmap-grid .mindmap-grid-card > img {
-  width: 35vw;
+  width: 28vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: absolute;
+  top: -3vw;
+  right: -5vw;
+}
+.mindmap .mindmap-grid .mindmap-grid-card:nth-child(2) > img {
+  width: 30vw;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -435,22 +444,23 @@ header .header-content .header-right a:hover {
   right: -5vw;
 }
 .mindmap .mindmap-grid .mindmap-grid-card:nth-child(3) > img {
-  width: 20vw;
+  width: 18vw;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   position: absolute;
   bottom: -5vw;
-  right: 0vw;
+  right: -2vw;
   top: unset;
 }
 .mindmap .mindmap-grid .mindmap-grid-card h3 {
-  font-size: 5vw;
+  font-size: 3.5vw;
   font-weight: 500;
   color: #fff;
   position: relative;
   z-index: 22;
-  max-width: 65%;
+  max-width: 47%;
+  margin: 0;
 }
 .mindmap .mindmap-details-box {
   width: 100%;
@@ -463,21 +473,21 @@ header .header-content .header-right a:hover {
   left: 0; */
   margin: 1.5vw 0 0 0;
   z-index: 10;
-  padding: 5vw;
+  padding: 3vw;
   overflow: hidden;
   position: relative;
 }
 .mindmap .mindmap-details-box h3 {
-  font-size: 8.5vw;
+  font-size: 6vw;
   color: #1b1e22;
-  margin: 0 0 2.5vw 0;
+  margin: 0 0 1vw 0;
   font-weight: 700;
   position: relative;
   z-index: 20;
   text-transform: uppercase;
 }
 .mindmap .mindmap-details-box p {
-  font-size: 2.25vw;
+  font-size: 1.75vw;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.85);
   position: relative;
@@ -488,18 +498,30 @@ header .header-content .header-right a:hover {
   font-weight: 700;
   color: rgba(0, 0, 0, 0.75);
 }
+.mindmap .mindmap-details-box .ct-team {
+  font-size: 1.75vw;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+  position: relative;
+  z-index: 20;
+  max-width: 90%;
+}
+.mindmap .mindmap-details-box .ct-team b {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.75);
+}
 .mindmap .mindmap-details-box > img {
-  width: 65vw;
+  width: 49vw;
   position: absolute;
-  bottom: -7.5vw;
-  right: -7.5vw;
+  bottom: -13.5vw;
+  right: -9.5vw;
   z-index: 15;
 }
 .mindmap .mindmap-details-box main {
-  margin: 5vw 0 0 0;
+  margin: 1vw 0 0 0;
 }
 .mindmap .mindmap-details-box main h4 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   color: #1b1e22;
   font-weight: 700;
   margin: 0 0 1.5vw 0;
@@ -509,19 +531,23 @@ header .header-content .header-right a:hover {
   color: #fff;
   font-size: 1.75vw;
   border-radius: 0.25vw;
-  font-weight: 400;
+  font-weight: 500;
   padding: 0.25vw 1vw;
+  margin: 0 0 0 0.75rem;
 }
 
 .mindmap-details-box .team-overview-grid img {
-  width: 12.5vw;
-  height: 12.5vw;
+  width: 9.5vw;
+  height: 9.5vw;
   margin: 2.5vw 0 0 0;
 }
 
 .bags-collection {
   width: 100%;
-  padding: 10vw 0 0 0;
+  padding: 5vw 0 0 0;
+}
+.bags-collection .section-heading-box p {
+  width: 70%;
 }
 .bags-collection .bags-c-content {
   width: 100%;
@@ -530,9 +556,10 @@ header .header-content .header-right a:hover {
   align-items: center;
 }
 .bags-collection .bags-c-content p {
-  font-size: 2.5vw;
+  font-size: 1.75vw;
   font-weight: 400;
   text-align: center;
+  width: 75%;
 }
 .bags-collection .box-c-grid {
   width: -webkit-max-content;
@@ -545,11 +572,14 @@ header .header-content .header-right a:hover {
   grid-gap: 3.5vw;
 }
 .bags-collection .box-c-grid img {
-  width: 25vw;
+  width: 13vw;
 }
 
 .team {
-  padding: 10vw 0;
+  padding: 5vw 0;
+}
+.team .section-heading-box p {
+  width: 70%;
 }
 .team .team-content {
   width: 100%;
@@ -560,17 +590,18 @@ header .header-content .header-right a:hover {
   position: relative;
 }
 .team .team-content .bags-2 {
-  width: 20vw;
+  width: 12vw;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   position: absolute;
-  top: -27.5vw;
-  left: 15vw;
+  top: -20.5vw;
+  left: 9vw;
   z-index: 2;
+  transform: rotate(45deg);
 }
 .team .team-content .cup {
-  width: 25vw;
+  width: 17vw;
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -599,13 +630,13 @@ header .header-content .header-right a:hover {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 2.5vw;
-  margin: 7.5vw 0 0 0;
+  margin: 15vw 0 0 0;
   z-index: 3;
   position: relative;
 }
 .team .team-card-grid .team-card {
   width: 100%;
-  padding: 3.5vw;
+  padding: 2.5vw;
   background-color: #fff;
   border-radius: 1.5vw;
   display: flex;
@@ -622,8 +653,8 @@ header .header-content .header-right a:hover {
   flex-direction: column;
 }
 .team .team-card-grid .team-card .team-card-content img {
-  width: 20vw;
-  height: 20vw;
+  width: 15vw;
+  height: 15vw;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -631,11 +662,13 @@ header .header-content .header-right a:hover {
   font-size: 4vw;
   font-weight: 600;
   margin: 1.5vw 0;
+  text-transform: none;
 }
 .team .team-card-grid .team-card .team-card-content p {
-  font-size: 2vw;
+  font-size: 1.75vw;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+  width: 100%;
 }
 .team .team-card-grid .team-card:nth-child(1) h3,
 .team .team-card-grid .team-card:nth-child(1) p {
@@ -665,12 +698,12 @@ header .header-content .header-right a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 5vw;
-  margin: 2.5vw 0 10vw 0;
+  grid-gap: 2vw;
+  margin: 2.5vw 0 2vw 0;
 }
 .team-overview-grid img {
-  width: 15vw;
-  height: 15vw;
+  width: 11.5vw;
+  height: 11.5vw;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -679,9 +712,9 @@ header .header-content .header-right a:hover {
   width: 100%;
 }
 .faq .faq-content {
-  margin: 2.5vw auto 5vw auto;
+  margin: 0 auto 5vw auto;
   position: relative;
-  width: 75%;
+  width: 78%;
 }
 .faq .faq-content .bags-2 {
   width: 20vw;
@@ -719,7 +752,7 @@ footer {
   border-top: 1px solid #343a40;
 }
 footer p {
-  font-size: 1.75vw;
+  font-size: 1.5vw;
   color: #343a40;
   text-align: center;
   margin: 0;
