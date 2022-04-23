@@ -379,10 +379,10 @@ header {
       &:nth-child(2) {
         & > img {
           width: 30vw;
-        height: max-content;
-        position: absolute;
-        top: -5vw;
-        right: -5vw;
+          height: max-content;
+          position: absolute;
+          top: -5vw;
+          right: -5vw;
         }
       }
       &:nth-child(3) {
@@ -427,12 +427,12 @@ header {
         grid-row: 4/5;
       } */
       h3 {
-        font-size: 3.5vw;
+        font-size: 3vw;
         font-weight: 500;
         color: #fff;
         position: relative;
         z-index: 22;
-        max-width: 47%;
+        max-width: 65%;
         margin: 0;
       }
     }
@@ -452,7 +452,7 @@ header {
     overflow: hidden;
     position: relative;
     h3 {
-      font-size: 6vw;
+      font-size: 5vw;
       color: #1b1e22;
       margin: 0 0 1vw 0;
       font-weight: 700;
@@ -519,10 +519,8 @@ header {
 .bags-collection {
   width: 100%;
   padding: 5vw 0 0 0;
-  .section-heading-box 
-  {
-    p 
-    {
+  .section-heading-box {
+    p {
       width: 70%;
     }
   }
@@ -552,10 +550,8 @@ header {
 }
 .team {
   padding: 5vw 0;
-  .section-heading-box 
-  {
-    p 
-    {
+  .section-heading-box {
+    p {
       width: 70%;
     }
   }
@@ -568,12 +564,12 @@ header {
     position: relative;
     .bags-2 {
       width: 12vw;
-    height: max-content;
-    position: absolute;
-    top: -20.5vw;
-    left: 9vw;
-    z-index: 2;
-    transform: rotate(45deg);
+      height: max-content;
+      position: absolute;
+      top: -20.5vw;
+      left: 9vw;
+      z-index: 2;
+      transform: rotate(45deg);
     }
     .cup {
       width: 17vw;

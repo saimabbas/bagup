@@ -126,7 +126,7 @@ function App() {
       </div>
 
       {/* Mindmap Section */}
-      {/* <div className="mindmap" id="mindmap">
+      <div className="mindmap" id="mindmap">
         <div className="box-sm">
           <div className="mindmap-head">
             <h2>MINDMAP</h2>
@@ -183,11 +183,11 @@ function App() {
                 - Sometimes your circle decreases in size but increases in
                 value. In order to make it easier for the community to connect
                 and get to know one another, we have chosen to reduce the number
-                of holders, community is always first.
-                - Our first priority is to make you feel comfortable within the
-                community. We created the concept of teams where you can hang
-                out with people who share the same interests and skills <br />as you
-                to relax, create, and have fun together.
+                of holders, community is always first. - Our first priority is
+                to make you feel comfortable within the community. We created
+                the concept of teams where you can hang out with people who
+                share the same interests and skills <br />
+                as you to relax, create, and have fun together.
                 <br />
                 <br />- More about the teams system
               </p>
@@ -273,9 +273,9 @@ function App() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
-      {/* <section className="bags-collection" id="bags">
+      <section className="bags-collection" id="bags">
         <div className="section-heading-box">
           <h2>BAGS</h2>
           <p>
@@ -292,8 +292,8 @@ function App() {
               <img src={CardC4} alt="CardC4" />
             </div>
             <p>
-              the collection also includes <b>4</b> one-of-a-kinds, which are the most
-              rare items
+              the collection also includes <b>4</b> one-of-a-kinds, which are
+              the most rare items
             </p>
           </div>
         </div>
@@ -387,9 +387,9 @@ function App() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
-      {/* <section className="faq" id="faq">
+      <section className="faq" id="faq">
         <div className="section-heading-box">
           <h2>FAQ</h2>
         </div>
@@ -435,7 +435,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Footer */}
       {/* <footer>
