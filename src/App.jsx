@@ -33,38 +33,36 @@ function App() {
     <div className="bagup">
       {/* Header */}
       <header>
-        <div className="box-sm">
-          <div className="header-content">
-            <div className="header-left">
-              <a href="#">
-                <img src={BagText} alt="BagText" />
-              </a>
-            </div>
-            <div className="header-center">
-              <a href="#">HOME</a>
-              <a href="#">BEYOND</a>
-              <a href="#">MINDMAP</a>
-              <a href="#">BAGS</a>
-              <a href="#">TEAMS</a>
-              <a href="#">FAQ</a>
-            </div>
-            <div className="header-right">
-              <a href="#">
-                <Opensea color="#1b1e22" />
-              </a>
-              <a href="#">
-                <Discord color="#1b1e22" />
-              </a>
-              <a href="#">
-                <Twitter color="#1b1e22" />
-              </a>
-            </div>
+        <div className="header-content">
+          <div className="header-left">
+            <a href="#">
+              <img src={BagText} alt="BagText" />
+            </a>
+          </div>
+          <div className="header-center">
+            <a href="#home">HOME</a>
+            <a href="#beyond">BEYOND</a>
+            <a href="#mindmap">MINDMAP</a>
+            <a href="#bags">BAGS</a>
+            <a href="#teams">TEAMS</a>
+            <a href="#faq">FAQ</a>
+          </div>
+          <div className="header-right">
+            <a href="#">
+              <Opensea color="#fff" />
+            </a>
+            <a href="#">
+              <Discord color="#fff" />
+            </a>
+            <a href="#">
+              <Twitter color="#fff" />
+            </a>
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="hero">
+      <section className="hero" id="home">
         {/* <div className="box-lg"> */}
         <div className="hero-content">
           <img className="hero-img" src={Hero} alt="Hero" />
@@ -74,7 +72,8 @@ function App() {
       </section>
 
       {/* Beyond Section */}
-      <section className="beyond">
+      <section className="beyond" id="beyond">
+        <img loading="lazy" className="diamond" src={Diamond} alt="Diamond" />
         <img
           loading="lazy"
           className="bull-left"
@@ -93,18 +92,14 @@ function App() {
             <h6>FOR THE COMMUNITY, BY THE COMMUNITY</h6>
           </div>
           <div className="beyond-content">
-            <img
-              loading="lazy"
-              className="diamond"
-              src={Diamond}
-              alt="Diamond"
-            />
             <img loading="lazy" className="cup" src={Cup} alt="Cup" />
             <p>
               A metaverse brand made up of people from various specializations
               including blockchain and crypto experts, traders. devs . graphic
               designers, artists,marketers, managers, and collectors all uniting
               together to build a strong web3 brand that creates dope projects.
+            </p>
+            <p className="more-w">
               BagUp gang is a limited collection of 2.222 avatars that gives you
               acces to be part of beyond, you will be able to enter exclusive
               events and festivals, recive airdrops, acces to private giveaways
@@ -131,7 +126,7 @@ function App() {
       </div>
 
       {/* Mindmap Section */}
-      <div className="mindmap">
+      {/* <div className="mindmap" id="mindmap">
         <div className="box-sm">
           <div className="mindmap-head">
             <h2>MINDMAP</h2>
@@ -280,9 +275,9 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <section className="bags-collection">
+      {/* <section className="bags-collection" id="bags">
         <div className="section-heading-box">
           <h2>BAGS</h2>
           <p>
@@ -304,9 +299,8 @@ function App() {
             </p>
           </div>
         </div>
-      </section>
-      {/* Team Section */}
-      <div className="team">
+      </section> */}
+      {/* <div className="team" id="teams">
         <div className="section-heading-box">
           <h2>TEAM</h2>
           <p>
@@ -395,20 +389,14 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* FAQ */}
-      <section className="faq">
+      {/* <section className="faq" id="faq">
         <div className="section-heading-box">
           <h2>FAQ</h2>
-          {/* <p>
-            Some text can also go thee just for the sake of design harmony. Some
-            text can also go thee just for the sake of design harmony.
-          </p> */}
         </div>
         <div className="box-sm">
           <div className="faq-content">
-            {/* <img loading="lazy" className="bags-2" src={Bags2} alt="Bags2" /> */}
             <div className="faq-box">
               <h4>What is Bagup gang ?</h4>
               <p>
@@ -449,7 +437,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       {/* <footer>
